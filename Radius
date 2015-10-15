@@ -1,0 +1,14 @@
+>>> radius = 2
+>>> area = math.pi * 2**2
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    area = math.pi * 2**2
+NameError: name 'math' is not defined
+>>> import math
+>>> radius = 2
+>>> area = math.pi *2**2
+>>> print(area)
+12.566370614359172
+>>> print(round(area,2))
+12.57
+>>> 
